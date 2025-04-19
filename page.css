@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(27, 27, 27);
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ocupa a altura total da tela */
+    margin: 0;
+}
+h1 {
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    justify-content: center;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.spotify {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+    .container {
+        display: flex;
+        justify-content: center; /* centraliza horizontalmente */
+    }
+img {
+    margin: 25px;
+    background-color: aliceblue;
+    height: 600px;
+    width: auto;
+    border-radius: 13px;
+}
+h2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+span {display: block;
+    margin: auto;
+    padding: 15px;
+    max-width: 620px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    color: aliceblue; /* Matches the color scheme of h1 and h2 */
+    font-family: sans-serif; /* Consistent font */
+    font-size: 16px; /* Readable font size for mobile */
+    line-height: 1.5; /* Improves readability with spacing */
+}
+.love {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 50px;
+}
